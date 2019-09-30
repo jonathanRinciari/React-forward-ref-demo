@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Hello from './Hello';
+import Button from './components/button';
 import './style.css';
 
 interface AppProps { }
@@ -9,20 +9,14 @@ interface AppState {
 }
 
 class App extends Component<AppProps, AppState> {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: 'React'
-    };
-  }
 
   render() {
     return (
-      <div>
-        <Hello name={this.state.name} />
-        <p>
-          Start editing to see some magic happen :)
-        </p>
+      <div className="app-wrapper">
+        <h1>ForwardRef Demo</h1>
+        <div>
+          <Button handleOnClick={() => {}} label="Test"/>
+        </div>
       </div>
     );
   }
