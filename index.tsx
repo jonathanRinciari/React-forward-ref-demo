@@ -15,7 +15,7 @@ class App extends Component<AppProps, AppState> {
       <div className="app-wrapper">
         <h1>ForwardRef Demo</h1>
         <div>
-          <Button handleOnClick={() => {}} label="Test"/>
+          <Button handleOnClick={() => {}} label="Test" color='#3a7f55'/>
         </div>
       </div>
     );

@@ -5,6 +5,8 @@
   "dependencies": {
     "@types/react": "^16.8.2",
     "@types/react-dom": "^16.8.0",
+    "@types/styled-components": "^4.1.19",
+    "polished": "^3.4.1",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "styled-components": "^4.4.0"
